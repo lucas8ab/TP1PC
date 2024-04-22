@@ -34,9 +34,9 @@ build/
 ### VS Code ###
 .vscode/
 
+### TP1 ###
+.informacion.log
+informacion.log.lck
+
 ### Mac OS ###
 .DS_Store
-
-### TP1 Concurrente ###
-informacion.log
-informacion.log.lck

@@ -48,7 +48,7 @@ public class Log extends Thread {
         logger.warning("\n"+matrizAsientos.matrizOcupacion()+"\n");
 
         //imprimo una vez mas la informacion de los registros de canceladas y verificadas
-        logger.info("Información final: " +"\n"+ registro.informacion());
+        logger.info("Información final: " + "\n"+ registro.informacion());
 
         //imprimir el tiempo que demoro el programa
         long endTime = System.currentTimeMillis();
