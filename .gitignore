@@ -35,7 +35,7 @@ build/
 .vscode/
 
 ### TP1 ###
-.informacion.log
+#.informacion.log
 informacion.log
 informacion.log.lck
 
