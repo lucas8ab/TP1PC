@@ -1,4 +1,5 @@
 import java.util.logging.FileHandler;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 import java.io.IOException;
@@ -44,7 +45,7 @@ public class Log extends Thread {
         }
 
         //imprimir matriz de ocupacion
-        logger.info("\n"+matrizAsientos.matrizOcupacion()+"\n");
+        logger.warning("\n"+matrizAsientos.matrizOcupacion()+"\n");
 
         //imprimo una vez mas la informacion de los registros de canceladas y verificadas
         logger.info("Información final: " +"\n"+ registro.informacion());
@@ -52,6 +53,6 @@ public class Log extends Thread {
         //imprimir el tiempo que demoro el programa
         long endTime = System.currentTimeMillis();
         long totalTime = endTime - startTime;
-        logger.info("\n"+"El programa demoro: " + totalTime + " ms");
+        logger.log(Level.OFF, "\n"+"El programa demoro: "+ totalTime + " ms");
     }
 }
