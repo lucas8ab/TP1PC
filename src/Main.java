@@ -2,6 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.print("se imprimio carajo");
+        System.out.print("se imprimio");
+        int a = 5;
     }
 }
