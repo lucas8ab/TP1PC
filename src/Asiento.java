@@ -12,16 +12,12 @@ public class Asiento {
         return estado;
     }
 
-    public synchronized void asientoOcupado() {
-        if(estado.equals(EstadosAsiento.LIBRE)){
-            estado = EstadosAsiento.OCUPADO;
-        }
+    public void asientoOcupado() {
+        estado = EstadosAsiento.OCUPADO;
     }
 
-    public synchronized void asientoDescartado() {
-        if(estado.equals(EstadosAsiento.OCUPADO)){
-            estado = EstadosAsiento.DESCARTADO;
-        }
+    public void asientoDescartado() {
+        estado = EstadosAsiento.DESCARTADO;
     }
 
     public void setId(int id) {

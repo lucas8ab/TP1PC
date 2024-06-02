@@ -1,4 +1,4 @@
-public enum EstadosAsiento {
+enum class EstadosAsiento {
     LIBRE,
     OCUPADO,
     DESCARTADO

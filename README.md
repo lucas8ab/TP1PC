@@ -1,2 +1,0 @@
-Proyecto
-Programacion Concurrente 2024
